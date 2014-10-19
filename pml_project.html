@@ -125,7 +125,7 @@ sum(is.na(testing_Data))                    # checking for NA values</code></pre
 <p>Build a machine learning model for predicting the <strong>classe</strong> value based on the other features of the dataset.</p>
 <div id="data-partitioning" class="section level5">
 <h5>Data partitioning</h5>
-<p>Partition the data into tranining, testing and cross-vlidation:</p>
+<p>Partition the data into tranining, testing and cross-validation:</p>
 <pre class="r"><code>library (caret)
 #Partition rows into training and crossvalidation
 inTrain &lt;- createDataPartition(training_Data$classe, p = 0.6, list=FALSE)

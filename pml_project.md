@@ -121,7 +121,7 @@ Build a machine learning model for predicting the **classe** value based on the 
 
 ##### Data partitioning
 
-Partition the data into tranining, testing and cross-vlidation:
+Partition the data into tranining, testing and cross-validation:
 
 
 ```r

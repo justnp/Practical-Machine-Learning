@@ -4,6 +4,7 @@ output:
   html_document:
     css: swiss.css
     keep_md: yes
+  pdf_document: default
 ---
 
 ## Introduction
@@ -95,7 +96,7 @@ Build a machine learning model for predicting the **classe** value based on the 
 
 ##### Data partitioning
 
-Partition the data into tranining, testing and cross-vlidation:
+Partition the data into tranining, testing and cross-validation:
 
 ```{r, echo=TRUE, chunk-split-Data, message=FALSE}
 library (caret)
